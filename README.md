@@ -52,6 +52,8 @@ python src/modelscope_proxy.py
 
 默认监听 `http://localhost:8080`
 
+> **端口被占用？** 通过环境变量修改：`PROXY_PORT=5000 python src/modelscope_proxy.py`
+
 #### 5. 接入应用
 
 将你的应用 API 地址指向代理服务即可：
